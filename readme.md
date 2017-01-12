@@ -12,6 +12,18 @@ Representada por la clase *HomeController* en el archivo *HomeController.php*. E
 Representada por la clase *CubeSummation* en el archivo *CubeSummation.php*. Esta clase se encarga de implementar toda la logica de negocio ejecutando el programa creado en c++ que se puede encontrar en: [link al repositorio!](https://github.com/JLRiiot/cube-summation)
 
 
+##¿En qué consiste el principio de responsabilidad única? ¿Cuál es su propósito?
+Este principio consiste en que cada clase debe tener un solo propósito dependiendo le la capa a la que pertenece, así: Un modelo (User) debe encargarse unicamente de implementar la lógica de negocio (Validaciones, acceso a datos, etc).
+
+##¿Qué características tiene según tu opinión “buen” código o código limpio?
+Un código limpio debe cumplir varias características:
+* Cumplir el codigo de estilos establecido
+* Nombrar variables que sean descriptivas y faciles de leer
+* Usar convenciones apropiadas para el lenguaje establecido
+* Comentar código sin grandes parrafos de texto
+* Núnca mesclar responsabilidades y usar correctamente patrones de diseño
+
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
