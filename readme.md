@@ -21,7 +21,7 @@ Un código limpio debe cumplir varias características:
 * Nombrar variables que sean descriptivas y faciles de leer
 * Usar convenciones apropiadas para el lenguaje establecido
 * Comentar código sin grandes parrafos de texto
-* Núnca mesclar responsabilidades y usar correctamente patrones de diseño
+* Núnca mezclar responsabilidades y usar correctamente patrones de diseño
 
 
 ## Laravel PHP Framework
