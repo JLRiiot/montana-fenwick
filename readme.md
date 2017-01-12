@@ -1,3 +1,17 @@
+## Las capas de la aplicación ?
+## (por ejemplo capa de persistencia, vista, de aplicación, etc) y qué clases pertenecen a cual
+
+La aplicación se hizo usando el patrón Modelo, Vista, Controlador en donde:
+###Vista
+Representada por el archivo *hello.php* se encarga de representar graficamente la información suministrada por el controlador.
+
+###Controlador
+Representada por la clase *HomeController* en el archivo *HomeController.php*. Esta clase se encarga de dar el manejo correcto a los requests correspondientes al "home" (punto de entrada de la app).
+
+###Modelo
+Representada por la clase *CubeSummation* en el archivo *CubeSummation.php*. Esta clase se encarga de implementar toda la logica de negocio ejecutando el programa creado en c++ que se puede encontrar en: [link al repositorio!](https://github.com/JLRiiot/cube-summation)
+
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
@@ -5,21 +19,3 @@
 [![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
 [![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
 [![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
-
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
-
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
-
-## Official Documentation
-
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
-
-### Contributing To Laravel
-
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)

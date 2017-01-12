@@ -23,6 +23,7 @@
 					</form>
 				</div>
 				<div class="col-sm-6">
+					<h2 class="text-center">Your results:</h2>
 					<p class="lead"><?php echo $result; ?></p>
 				</div>
 			</div>
